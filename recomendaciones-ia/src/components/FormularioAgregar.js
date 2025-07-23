@@ -11,7 +11,7 @@ const FormularioAgregar = ({ recargarPeliculas }) => {
     const nueva = { titulo, genero, poster, descripcion };
 
     try {
-      const res = await fetch('/api/peliculas', {
+      const res = await fetch('https://recomendaciones-backend-wum9.onrender.com/api/peliculas', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(nueva)
