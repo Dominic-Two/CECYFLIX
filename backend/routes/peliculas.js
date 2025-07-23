@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Pelicula = require('../models/Pelicula');
+const Pelicula = require('../models/pelicula');
 
 // Obtener todas las películas
 router.get('/', async (req, res) => {
