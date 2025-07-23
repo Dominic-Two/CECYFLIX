@@ -10,7 +10,8 @@ function App() {
   const [recomendacion, setRecomendacion] = useState('');
 
   const recargarPeliculas = () => {
-    fetch('https://recomendaciones-backend-wum9.onrender.com')
+    fetch('https://recomendaciones-backend-wum9.onrender.com/api/peliculas')
+
       .then(res => res.json())
       .then(data => {
         setPeliculas(data);
@@ -37,7 +38,7 @@ function App() {
 
   const handleBuscarPorDescripcion = async () => {
     try {
-      const res = await fetch('https://recomendaciones-backend-wum9.onrender.com', {
+      const res = await fetch('https://recomendaciones-backend-wum9.onrender.com/api/peliculas', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
