@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titulo": "El viaje de Chihiro",
+    "genero": "Animación",
+    "descripcion": "Una niña queda atrapada en un mundo mágico y debe encontrar cómo volver.",
+    "poster": "https://m.media-amazon.com/images/I/81V%2BzHAg45L._AC_SY679_.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Matrix",
+    "genero": "Ciencia ficción",
+    "descripcion": "Un programador descubre que su mundo es una simulación virtual.",
+    "poster": "https://m.media-amazon.com/images/I/51vpnbwFHrL._AC_.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Toy Story",
+    "genero": "Animación",
+    "descripcion": "Los juguetes de un niño cobran vida cuando nadie los ve.",
+    "poster": "https://m.media-amazon.com/images/I/71Ued4S8tEL._AC_SY679_.jpg"
+  }
+]
