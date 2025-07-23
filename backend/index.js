@@ -18,7 +18,7 @@ app.use('/api/peliculas', peliculasRouter);
 app.listen(4000, () => console.log('🚀 Backend corriendo en http://localhost:4000'));
 
 mongoose.connection.once('open', async () => {
-  const Pelicula = require('./models/Pelicula');
+  const Pelicula = require('./models/pelicula');
   const total = await Pelicula.countDocuments();
   console.log(`🎬 Películas encontradas en MongoDB: ${total}`);
 });
